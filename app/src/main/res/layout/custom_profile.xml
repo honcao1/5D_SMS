@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imvProfileHinh"
+        android:layout_marginLeft="20dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.5"/>
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="7.5"
+        android:text="Name"
+        android:textColor="#1C34C2"
+        android:textSize="20dp" />
+</LinearLayout>

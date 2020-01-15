@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_location"
+        android:icon="@drawable/ic_location"
+        android:title="Location"/>
+
+    <item android:title="Park"
+        android:id="@+id/bottom_park"
+        android:icon="@drawable/ic_receipt"/>
+
+    <item android:title="Profile"
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_person"/>
+</menu>

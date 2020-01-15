@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvParkBienso"
+        android:text="bien so xe"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvParkTenduong"
+        android:text="Ten duong"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvParkDate"
+        android:text="12/12/2012"
+        android:textSize="15dp"
+        android:layout_below="@id/tvParkBienso"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvParkStartTime"
+        android:text="12/12/2012"
+        android:textSize="15dp"
+        android:textColor="#02AD06"
+        android:layout_below="@id/tvParkBienso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvParkEndTime"
+        android:text="12/12/2012"
+        android:textSize="15dp"
+        android:textColor="#AC0202"
+        android:layout_below="@id/tvParkBienso"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

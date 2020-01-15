@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:id="@+id/myMap"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/relayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border">
+        
+        <ImageView
+            android:id="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_magnify"
+            android:layout_marginLeft="10dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:hint="Enter Address, City or Zip Code"
+            android:background="@null"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/ic_magnify"
+            android:imeOptions="actionSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ic_gps"
+
+        android:layout_below="@id/relayout"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="500dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_gps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <RelativeLayout
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_border"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edtTenDuong"
+            android:gravity="center"
+            android:hint="Tên đường"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerTime"
+            android:layout_below="@id/edtTenDuong"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerXe"
+            android:layout_below="@id/edtTenDuong"
+            android:layout_toRightOf="@id/spinnerTime"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:id="@+id/btnMua"
+            android:text="Mua"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@id/edtTenDuong"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

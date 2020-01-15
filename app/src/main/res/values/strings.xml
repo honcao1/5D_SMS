@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Car_5D</string>
+    <string name="api_key_google">AIzaSyDH6dXXX6u0d177PbliYTtsxXMu5Ak6cFM</string>
+    <string name="dangkixe">Đăng kí xe</string>
+    <string name="add_bien_so">Nhập biển số xe</string>
+    <string name="add_mau_xe">Nhập màu xe không dấu</string>
+    <string name="add_loai_xe">Nhập loại xe</string>
+    <string name="add_dang_ki">Đăng kí</string>
+    <string name="add_huy">Hủy</string>
+</resources>

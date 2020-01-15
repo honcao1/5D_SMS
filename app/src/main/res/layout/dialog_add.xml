@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/dangkixe"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#E23636"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtAddBienSo"
+        android:hint="@string/add_bien_so"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtAddMauXe"
+        android:hint="@string/add_mau_xe"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtAddLoaiXe"
+        android:hint="@string/add_loai_xe"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="@string/add_dang_ki"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:textStyle="bold"
+            android:text="@string/add_huy"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
